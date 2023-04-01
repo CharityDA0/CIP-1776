@@ -78,6 +78,7 @@ This CIP introduces the concept of 'Voltaire completeness'. This expression is u
 # Specification
 
 ●       The Cardano Constitution
+
 ●       Proposal & Ratification of Legislation
 ●       The Standard Model
 ●       The Treasury Model
