@@ -80,13 +80,22 @@ This CIP introduces the concept of 'Voltaire completeness'. This expression is u
 ●       The Cardano Constitution
 
 ●       Proposal & Ratification of Legislation
-●       The Standard Model
-●       The Treasury Model
+
+●  ●       The Standard Model
+
+●  ●        The Treasury Model
+
 ●       Governance Bodies
-●       The Constitutional Court
-	●       Stake Pool Operators
-	●       Delegated Representatives
+
+●  ●       The Constitutional Court
+
+●  ●       Stake Pool Operators
+	
+●  ●       Delegated Representatives
+	
 ●       Technical Implementation
+
 ●      Frequently Asked Questions
+
 ●      Licence & Copyright
 
