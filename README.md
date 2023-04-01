@@ -81,17 +81,17 @@ This CIP introduces the concept of 'Voltaire completeness'. This expression is u
 
 ●       Proposal & Ratification of Legislation
 
-●  ●       The Standard Model
+-----       The Standard Model
 
-●  ●        The Treasury Model
+-----        The Treasury Model
 
 ●       Governance Bodies
 
-●  ●       The Constitutional Court
+-----       The Constitutional Court
 
-●  ●       Stake Pool Operators
-	
-●  ●       Delegated Representatives
+-----       Stake Pool Operators
+
+-----      Delegated Representatives
 	
 ●       Technical Implementation
 
