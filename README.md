@@ -14,4 +14,4 @@ License: All Rights Reserved
 ---
 
 # CIP 1776: A Better Model For Decentralized Governance 
-# Version 0.5
+*Version 0.5*
