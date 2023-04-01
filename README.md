@@ -40,6 +40,39 @@ Growing dissatisfaction with the governance model proposed in CIP1694 has splint
 ## Goal
 The goal of this CIP is to lay down a functional foundation for decentralized decision-making. This CIP describes a model for on-chain governance that is both technically and legislatively complete and (unlike other proposed models of governance) without any missing dependencies for a functional mechanism of minimum viable governance. This model leverages the existing Cardano governance mechanism scheme, correctly utilizing the seven existing governance keys. It aims to provide a tangible, scalable foundation that is technically achievable within a reasonable timeframe for any competent world leading blockchain development organization.
 
-While this proposal is presented as a “logically feasible and complete’’ model, Version 0.5 is not presented as a ‘technically complete’ model. This is to allow for community consultation on the best technical approach to overcoming specific technical problems. The model presented here assumes that Input Output Global is  technically competent and that the Cardano blockchain ‘solves’ the blockchain trilemma of security, scalability, and decentralization.
+# Current governance mechanism design
+The seven-key on-chain Cardano governance system, established during the Shelley ledger phase, possesses the ability to:
 
+    1. Alter protocol parameter values, including the initiation of "hard forks."
+    2. Move ADA between reserves and the treasury, as well as the withdrawal of ADA from these sources.
 
+Under the existing framework, initiating governance actions necessitates special transactions with Quorum-Many authorizations from the governance keys (5 of the 7 on the Cardano mainnet). The transaction body contains fields detailing the proposed governance action, such as amending protocol parameters or initiating fund transfers. Each transaction can prompt only one type of governance action, but an individual action can produce multiple effects (e.g., modifying two or more protocol parameters).
+
+Transaction body field no. 6 is utilized for protocol parameter updates. Meanwhile, Move Instantaneous Rewards (MIR) certificates are employed for handling treasury and reserve movements. Authorized governance actions are executed at epoch boundaries (when they are enacted).
+
+## Hard Forks
+Changing the major protocol version enables Cardano to enact controlled hard forks. This type of protocol parameter update therefore has a special status, since stake pools must upgrade their node versions to support the new protocol version once the hard fork is enacted.
+
+## Limitations of the Shelley Governance Model
+As we progress towards the Voltaire era, this proposal aims to remedy several limitations of the current design through the application of a minimum viable governance approach. Offering a simple, scalable, mutable model for governance is impossible under the Shelly model and thus an alternative is required.  
+
+The Shelley governance model does not provide an avenue for active on-chain engagement from Ada holders. Although protocol changes often result from discussions with selected community members, the process is primarily driven by the founding entities as IOG, the Cardano Foundation, and Emergo hold between them all seven governance keys.
+
+Treasury movements are a crucial and delicate matter, but they can be difficult to monitor. It is essential to establish greater transparency and additional layers of control over these transactions.
+
+Hard forks, which require special handling by SPOs, are not distinguished from other protocol parameter alterations.
+
+Lastly, while Cardano's founding entities and many community members generally share a somewhat unified vision for the project, many other stakeholders in the system do not. Utilizing the Cardano blockchain to permanently record the shared Cardano ethos as a formal Cardano Constitution makes sense. 
+
+# Out of scope
+
+The following topics are considered to be out of the scope of this proposal.
+
+## Legal Issues
+This CIP does not acknowledge the jurisdiction of any nation state or legal authority for the enforcement of any action in relation to the Cardano blockchain due its nature as a censorship resistant distributed network.
+
+# Terminology
+
+This CIP introduces the concept of 'Voltaire completeness'. This expression is used to mean "Satisfies all requirements for a viable governance model with no outstanding dependencies". For example, a proposal that called for a constitutional committee to oversee a constitution, but provides neither a constitution nor the ability within the proposed governance model to formally implement one, would not be considered to be 'Voltaire-complete'. This can be likened to the term 'Turing Complete' in computer science.
+
+# Specification
