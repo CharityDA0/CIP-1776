@@ -56,7 +56,7 @@ Changing the major protocol version enables Cardano to enact controlled hard for
 ## Limitations of the Shelley Governance Model
 As we progress towards the Voltaire era, this proposal aims to remedy several limitations of the current design through the application of a minimum viable governance approach. Offering a simple, scalable, mutable model for governance is impossible under the Shelly model and thus an alternative is required.  
 
-The Shelley governance model does not provide an avenue for active on-chain engagement from Ada holders. Although protocol changes often result from discussions with selected community members, the process is primarily driven by the founding entities as IOG, the Cardano Foundation, and Emergo hold between them all seven governance keys.
+The Shelley governance model does not provide an avenue for active on-chain engagement from Ada holders. Although protocol changes often result from discussions with selected community members, the process is primarily driven by the founding entities as IOG, the Cardano Foundation, and Emurgo hold between them all seven governance keys.
 
 Treasury movements are a crucial and delicate matter, but they can be difficult to monitor. It is essential to establish greater transparency and additional layers of control over these transactions.
 
