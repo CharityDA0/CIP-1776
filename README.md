@@ -7,8 +7,8 @@ Contribtors:
     - Various Parties to be credited later
 Implementors: N/A
 Discussions:
-    - https://discord.gg/nodeshark
-Status: ??
+    - TBD
+Status: TBD
 Created: 2023-01-22
 License: All Rights Reserved
 ---
