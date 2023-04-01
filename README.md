@@ -166,7 +166,7 @@ This vital feature of the Constitutional Court prevents the centralization of po
 
 While the principal number of seats on the Constitutional Court is seven (7), this may be altered by the ratification of a subsequent proposal. 
 
-## Stake Pool Operators
+# Stake Pool Operators
 
 Stake Pool Operators (SPOs) play a critical role in the Cardano governance system. SPOs are responsible for creating and maintaining the blocks that make up the Cardano blockchain. They are also responsible for participating in the governance process by voting on proposals during the second stage of the Standard Model and hold the unique position of gatekeeping low-quality / dangerous proposals from consideration by the other two houses of governance.
 
@@ -178,17 +178,17 @@ Under the cascading delegation governance model, SPOs may also delegate their pl
 
 It is important to note that under the Standard Model, SPOs cannot move funds from the Cardano treasury. This ensures that the treasury remains secure and prevents any potential abuse of power by SPOs. However, once the treasury model is implemented, SPOs will have a direct role in the allocation of funds, making their role in the governance process even more critical. This role is balanced by the power of the DReps and Constitutional Court. 
 
-##
+# Delegated Representatives
 
 Under this model, Delegated Representatives (DReps) act as the lower chamber of governance, casting votes based on the total ADA holdings they represent. Any Cardano user may choose to represent themselves as a DRep, and the process of delegating to a DRep is technically similar to delegating to a stake pool.
 
 In addition to representing themselves, users may also delegate their voting rights to any other user wallet. The collective voting power of a group of users can also be delegated to another user through a cascading governance model. This allows for a more decentralized and democratic governance system, where all ADA holders have a say in the decision-making process. 
 
-## Frequently Asked Questions
+# Frequently Asked Questions
 
 With due respect to the guidance from IO to give opposing arguments the strongest possible case in consideration, a process commonly known as ‘steel manning’, we ask that argumentation on this matter is done on the facts, not with rhetoric, name calling, or from a disingenuous premise. We all have the same goal of seeing this blockchain succeed. 
 
-## Licence & Copyright
+# Licence & Copyright
 © EveryEpoch Limited (Company Number 14324429) - All Rights Reserved
 
 
