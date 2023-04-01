@@ -76,3 +76,17 @@ This CIP does not acknowledge the jurisdiction of any nation state or legal auth
 This CIP introduces the concept of 'Voltaire completeness'. This expression is used to mean "Satisfies all requirements for a viable governance model with no outstanding dependencies". For example, a proposal that called for a constitutional committee to oversee a constitution, but provides neither a constitution nor the ability within the proposed governance model to formally implement one, would not be considered to be 'Voltaire-complete'. This can be likened to the term 'Turing Complete' in computer science.
 
 # Specification
+
+●       The Cardano Constitution
+●       Proposal & Ratification of Legislation
+	●       The Standard Model
+	●       The Treasury Model
+
+●       Governance Bodies
+	●       The Constitutional Court
+	●       Stake Pool Operators
+	●       Delegated Representatives
+●       Technical Implementation
+●      Frequently Asked Questions
+●      Licence & Copyright
+
